@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "$1" | tr 'Ac' 'Ze'
+tr "A3 "Z" | tr "C" "e"
