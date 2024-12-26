@@ -106,6 +106,7 @@ work and how to filter text from files.
     * Hidden files included.
     * One file name per line.
 
+
 * **24. A gif is worth ten thousand words**
   * [101-gifs](./101-gifs): Bash script that lists all the files with a `.gif` extension
   in the current directory and all its sub-directories as follows:
@@ -114,6 +115,7 @@ work and how to filter text from files.
     * File names displayed without extensions.
     * Files sorted by byte values, but case insensitive.
     * One file name per line.
+
 
 * **25. Acrostic**
   * [102-acrostic](./102-acrostic): Bash script that decodes acrostics that use the first
