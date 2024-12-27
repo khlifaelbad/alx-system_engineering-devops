@@ -89,15 +89,19 @@ work and how to filter text from files.
   * [19-AZ](./19-AZ): Bash script that replaces all characters `A` and `c` from input
   to `Z` and `e` respectively.
 
+
 * **20. Without C, you would live in hiago**
   * [20-hiago](./20-hiago): Bash script that removes all letters `c` and `C` from input.
+
 
 * **21. esreveR**
   * [21-reverse](./21-reverse): Bash script that reverses its input.
 
+
 * **22. DJ Cut Killer**
   * [22-users_and_homes](./22-users_and_homes): Bash script that displays all users and
   their home directories, sorted by users, based on the `/etc/passwd` file.
+
 
 * **23. Empty casks make the most noise**
   * [100-empty_casks](./100-empty_casks): Bash script that finds all empty files
