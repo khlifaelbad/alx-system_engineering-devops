@@ -1,0 +1,18 @@
+#!/bin/bash
+
+# echo {a..z}{a..z} | tr ' ' '\n'
+# write a script that print all possible combination of two letters, except oo.
+# Letters are lower cases, from a to z
+# One combination per line
+# The output should be alpha ordered, starting with aa
+# Do not print oo
+# Your script file should contain maximum 64 characters
+
+for letter in {a..z}{a..z}
+do
+	if [[ "$letter" == "oo" ]]
+	then
+		continue;
+	fi
+	echo $letter
+done
