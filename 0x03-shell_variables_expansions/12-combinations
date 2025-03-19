@@ -1,10 +1,2 @@
 #!/bin/bash
-
-for letter in {a..z}{a..z}
-do
-	if [[ "$letter" == "oo" ]]
-	then
-		continue;
-	fi
-	echo $letter
-done
+echo {a..z}{a..z} | tr ' ' '\n'
