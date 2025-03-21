@@ -1,2 +1,2 @@
 #!/bin/bash
-awk 'NR % 1 == 0
+paste - - | awk '{print $1}'
